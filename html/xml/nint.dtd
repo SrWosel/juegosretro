@@ -1,9 +1,0 @@
-﻿<!ELEMENT consolas (consola)>
-<!ELEMENT consola (nombre, company, anyo_jap, finprod, ventas, proces, formato)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT company (#PCDATA)>
-<!ELEMENT anyo_jap (#PCDATA)>
-<!ELEMENT finprod (#PCDATA)>
-<!ELEMENT ventas (#PCDATA)>
-<!ELEMENT proces (#PCDATA)>
-<!ELEMENT formato (#PCDATA)>
