@@ -8,6 +8,10 @@ body{
     width: 970px;
 }
 
+header{
+  background-image: url("../images/banner.jpg")
+}
+
 img{
   
   align-items: center;
@@ -93,9 +97,9 @@ ul
 { font: normal 160% Arial, Helvetica, sans-serif;
   letter-spacing: -3px;
   text-shadow: 1px 1px #fff;
-  color: #1D1D1D;}
+  color:white;}
 
   #welcome_slogan H1
 { font: normal 200% Arial, Helvetica, sans-serif;
   letter-spacing: -2px;
-  color: #535353;}
+  color: white;}
