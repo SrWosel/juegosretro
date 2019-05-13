@@ -1,0 +1,105 @@
+body{
+	color: #FFFFFF;
+	font: normal 100% Arial, Helvetica, sans-serif;
+  	background: #ccc;;
+  	background-color: #0099CC;	
+  	margin-left: 25%;
+  	margin-right: 25%;
+    width: 970px;
+}
+
+header{
+  background-image: url("../images/banner.jpg")
+}
+
+img{
+  
+  align-items: center;
+  margin-top: 5%;
+}
+
+table, tr, th, td {
+  font-size: 15px;
+  border: solid white;
+  border-collapse: collapse;
+}
+
+a, a:hover
+{ color: #1D1D1D;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+}
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+  ul#menu, li.menulist
+{ padding: 10px;
+  list-style: none;
+  margin: 2px;
+  display: inline;
+  }
+
+ nav
+{ width: 100%;
+  height: 50%;
+  text-align: center; 
+  margin: 0 auto;
+  background: #1D1D1D;
+  border-radius: 15px;
+  }
+
+  #menu a
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;
+  color: #FFF;}
+
+  .sidebar
+{ 
+  width: 250px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;}
+
+  .sidebar_item
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  width: 215px;}
+
+  .sidebar h2
+{ padding: 5px 0 0 10px;
+  font: normal 140% Arial, Helvetica, sans-serif;
+  height: 30px;
+  color: #fff;
+  background: #1D1D1D;
+  border-radius: 15px;
+ }  
+
+ aside
+{ float: left;
+  margin: 10px 20px 0 0;
+  width: 215px;
+  padding: 0;}
+
+
+ article
+{ width: 680px;
+  margin-bottom: 20px;
+  float: left;}
+
+  #welcome
+{ font: normal 160% Arial, Helvetica, sans-serif;
+  letter-spacing: -3px;
+  text-shadow: 1px 1px #fff;
+  color:white;}
+
+  #welcome_slogan H1
+{ font: normal 200% Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+  color: white;}
