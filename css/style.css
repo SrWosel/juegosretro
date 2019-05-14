@@ -94,8 +94,9 @@ ul
   float: left;}
 
 .slideshow-container{
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 
