@@ -21,7 +21,7 @@
 </style>
 </head>
 
-<body>
+<body onload="startTime()">
 
 	<!-- <SCRIPT   language="javascript">
 	alert("Esta pagina es una prueba");
@@ -96,6 +96,31 @@
 </div>
   <!--close main-->
 <footer>
+
+  <script type="text/javascript">
+function startTime() {
+    var today = new Date();
+    var hr = today.getHours();
+    var min = today.getMinutes();
+    var sec = today.getSeconds();
+    //Add a zero in front of numbers<10
+    min = checkTime(min);
+    sec = checkTime(sec);
+    document.getElementById("clock").innerHTML = hr + " : " + min + " : " + sec;
+    var time = setTimeout(function(){ startTime() }, 500);
+}
+function checkTime(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+}
+</script>
+
+<div id="clockdate">
+  <div class="clockdate-wrapper">
+    <div id="clock"></div>
+    <div id="date"></div>
 
 <center>
 	<audio controls autoplay>

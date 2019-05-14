@@ -104,5 +104,17 @@ ul
   letter-spacing: -2px;
   color: white;}
 
+  .clockdate-wrapper {
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    margin: auto;
+    margin-top:15%;
+}
+#clock{
+    font-size:60px;
+    color: black;
+}
   
  
