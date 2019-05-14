@@ -93,6 +93,12 @@ ul
   margin-bottom: 20px;
   float: left;}
 
+.slideshow-container{
+  display: inline-block;
+  margin-right: auto;
+}
+
+
   #welcome
 { font: normal 160% Arial, Helvetica, sans-serif;
   letter-spacing: -3px;
