@@ -95,7 +95,7 @@ ul
 
 .slideshow-container{
   display: inline-block;
-  margin-right: auto;
+  vertical-align: middle;
 }
 
 
