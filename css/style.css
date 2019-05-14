@@ -9,6 +9,7 @@ body{
 }
 
 header{
+  border-radius: 8px;
   background-image: url("../images/banner.jpg")
 }
 
